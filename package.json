@@ -1,0 +1,23 @@
+{
+  "name": "electron-supabase-app",
+  "version": "1.0.0",
+  "main": "src/main/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^30.0.0",
+    "electron-builder": "^24.0.0"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0"
+  },
+  "build": {
+    "appId": "com.company.app",
+    "productName": "Electron Supabase App",
+    "win": {
+      "target": "nsis"
+    }
+  }
+}
