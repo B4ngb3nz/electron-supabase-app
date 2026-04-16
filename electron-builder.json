@@ -1,0 +1,15 @@
+{
+  "appId": "com.company.app",
+  "productName": "Electron Supabase App",
+  "directories": {
+    "output": "dist"
+  },
+  "win": {
+    "target": "nsis"
+  },
+  "files": [
+    "src/**/*",
+    "supabase/**/*",
+    "package.json"
+  ]
+}
